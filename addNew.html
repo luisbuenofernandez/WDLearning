@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD NEW</title>
+
+    <link rel="stylesheet" href="JS+CSS+JSON/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        #textInput {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        #output {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .format-buttons {
+            align-items: center;
+            justify-content: center;
+            
+            margin-bottom: 0;
+        }
+
+        button {
+            margin-right: 5px;
+        }
+
+        .highlight-button {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            padding: 0;
+            margin: 8px 4px;
+        }
+
+        .flex {
+            display: flex;
+           flex-direction: row;
+           margin-bottom: 0;
+        }
+
+        .flex div {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: .5px solid #9595955a;
+            border-radius: 8px;
+        }
+        .flex1 {
+            margin-right: 8px;
+            width: 100%;
+        }
+
+        .flex1 button {
+            border: none;
+        }
+        .flex2 {
+            justify-content: end;
+            padding: 0 4px;
+            width: 100%;
+        }
+        
+        .flex3 {
+            width: 15%;
+            display: flex;
+            margin-left: 8px;
+        }
+
+        .removeStyle {
+            background-color: white;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+
+        #addNewQuestion,
+        #cancel {
+            /* Hide buttons by default */
+            width: 100%;
+            font-weight: bold;
+            border-radius: 25px;
+        }
+
+        #addNewQuestion {
+            background-color: #3498db;
+            color: white;
+        }
+
+        #cancel {
+            width: 100%;
+            
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+            color: grey;
+            
+        }
+        
+    </style>
+
+
+</head>
+
+<body class="container">
+    <div class="section-1">
+
+
+        
+    <div class="format-buttons ">
+        <div id="format-buttons">
+            <div class="flex">
+                <div class="flex1">
+
+                    <!-- Updated buttons with symbols -->
+                    <button class="circleButton" onclick="formatText('bold')">
+                        <span class="material-symbols-rounded">
+                            format_bold
+                            </span>
+                    </button>
+                    <button class="circleButton" onclick="formatText('strikethrough')">
+                        <span class="material-symbols-rounded">
+                            strikethrough_s
+                            </span>
+                    </button>
+                    <button class="circleButton" onclick="formatText('italic')">
+                        <span class="material-symbols-rounded">
+                            format_italic
+                            </span>
+                    </button>
+                    <button class="circleButton" onclick="formatText('underline')">
+                        <span class="material-symbols-rounded">
+                            format_underlined
+                            </span>
+                    </button>
+                </div>
+                
+               
+                <div id="highlightContainer" class="flex2">
+                    <button class="highlight-button" style="background-color: #80E0FF;"
+                        onclick="highlightText('#80E0FF')"></button>
+                    <button class="highlight-button" style="background-color: #B9FBC0;"
+                        onclick="highlightText('#B9FBC0')"></button>
+                    <button class="highlight-button" style="background-color: #FFDAB3;"
+                        onclick="highlightText('#FFDAB3')"></button>
+                    <button class="highlight-button" style="background-color: #E7D0FF;"
+                        onclick="highlightText('#E7D0FF')"></button>
+                </div>
+                
+                <div class="flex3">
+                    <button class="removeStyle"
+                        onclick="removeHighlight()">
+                        <span class="material-symbols-rounded">
+                            ink_eraser_off
+                            </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+        </div>
+    </div>
+
+
+    
+
+
+
+
+
+    <div class="questionSection">
+
+
+        <div>
+            <div class="show-question" >
+                <h2 id="displayText1" contenteditable="true">Question</h2>
+
+
+                <div id="radioButtonsContainer" class="space-between margin8px section-1">
+                    <div id="radioButtonsWrapper">
+                        <input type="radio" id="radioInterviewer" name="topic" class="radio" value="Interviewer">
+                        <label for="radioInterviewer">HTML</label>
+
+                        <input type="radio" id="radioCandidate" name="topic" class="radio" value="Candidate">
+                        <label for="radioCandidate">CSS</label>
+
+                        <input type="radio" id="radioAdvice" name="topic" class="radio" value="Advice">
+                        <label for="radioAdvice">UXUI</label>
+
+                        <input type="radio" id="radioEncouragement" name="topic" class="radio" value="Encouragement">
+                        <label for="radioEncouragement">Enc</label>
+                    </div>
+                    <div id="checkboxWrapper">
+                        <input type="checkbox" id="checkboxEdit" class="checkbox" value="yes" data-key="editing">
+                        <label for="checkboxEdit">Edit</label>
+                    </div>
+                </div>
+            </div>
+
+           
+
+                <div id="displayText2" contenteditable="true">Explanation</div>
+
+           
+
+
+
+
+
+            
+        </div>
+    </div>
+
+    <div class="section-2 margin8px">
+        <div id="editableText" class="scrollable">
+            <div id="displayText3" contenteditable="true">
+                Answer
+            </div>
+            <hr>
+            <div id="displayText4" contenteditable="true">Example</div>
+        </div>
+    </div>
+
+    <div id="addNewfooter" class="section-3 margin8px">
+
+        <div class="space-between">
+
+            <a id="cancel" href="index.html" ><button  class="btn">Cancel</button></a>
+            <button id="addNewQuestion" class="btn">Save</button>
+
+        </div>
+    </div>
+
+    <script src="JS+CSS+JSON/addNew.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+    <script>
+        function highlightText(color) {
+            document.execCommand('hiliteColor', false, color);
+        }
+
+        function removeHighlight() {
+            document.execCommand('removeFormat', false, 'hiliteColor');
+        }
+
+        function formatText(command) {
+            document.execCommand(command, false, null);
+        }
+    </script>
+
+</body>
+
+</html>

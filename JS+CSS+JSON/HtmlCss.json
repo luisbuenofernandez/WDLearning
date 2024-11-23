@@ -1,0 +1,398 @@
+{
+    "lines": [
+      {
+        "question": "What is the purpose of the `<head>` tag in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<head>` tag contains meta-information about the webpage, such as its title, link to stylesheets, and other metadata. It helps the browser understand how to display and organize the page."
+      },
+      {
+        "question": "Why is the `<body>` tag important in an HTML document?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<body>` tag contains the content that is visible to the user on the webpage. It is essential because it defines what is rendered on the page, including text, images, and other media."
+      },
+      {
+        "question": "What is the difference between an inline and block-level element?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "Inline elements do not break the flow of content and are placed within a line, while block-level elements occupy full-width and create a new line after the element."
+      },
+      {
+        "question": "What does the `<alt>` attribute do in an image tag?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<alt>` attribute provides alternative text for an image if the image cannot be displayed. It also enhances accessibility for screen readers, helping users with visual impairments."
+      },
+      {
+        "question": "Why is it important to use semantic HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "Using semantic HTML improves the readability and accessibility of the content for both developers and users, and it helps search engines understand the structure of the page better."
+      },
+      {
+        "question": "What does the `<a>` tag represent in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<a>` tag is used to define hyperlinks in HTML. It links one webpage to another or to a different section of the same page."
+      },
+      {
+        "question": "What is the purpose of the `<form>` tag in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<form>` tag is used to collect user input. It contains input fields like text boxes, checkboxes, and buttons to send data to a server for processing."
+      },
+      {
+        "question": "How do you create a list in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You can create an unordered list using the `<ul>` tag and list items with `<li>`. For an ordered list, use the `<ol>` tag instead of `<ul>`."
+      },
+      {
+        "question": "What is the purpose of the `<meta>` tag?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<meta>` tag provides metadata about the HTML document, like its character set or keywords, and can be used for SEO purposes or to specify the viewport for responsive design."
+      },
+      {
+        "question": "What does the `href` attribute do in an anchor tag?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `href` attribute specifies the URL of the page the anchor tag links to. It defines the destination for the hyperlink."
+      },
+      {
+        "question": "What is the difference between the `<div>` and `<span>` tags?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<div>` tag is a block-level element used to group content, while the `<span>` tag is an inline element used to style or group text within a line."
+      },
+      {
+        "question": "What is the role of the `<title>` tag in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<title>` tag defines the title of the webpage that appears in the browser tab or window. It is also used by search engines in their results."
+      },
+      {
+        "question": "Why is the `<head>` section necessary in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<head>` section contains important elements like the title, links to stylesheets, scripts, and metadata, which define the document's settings and layout."
+      },
+      {
+        "question": "How can you link an external CSS file to an HTML document?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You can link an external CSS file to an HTML document by using the `<link>` tag inside the `<head>` section, with the `href` attribute pointing to the CSS file."
+      },
+
+      {
+        "question": "What is the role of the `alt` attribute in the `<img>` tag?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `alt` attribute provides descriptive text for an image, which is displayed if the image cannot be loaded. It also improves accessibility for users who rely on screen readers."
+      },
+      {
+        "question": "How do you create a table in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You can create a table in HTML using the `<table>` tag, with rows defined by the `<tr>` tag and cells using `<td>` for data or `<th>` for headers."
+      },
+      {
+        "question": "What is the use of the `id` attribute in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `id` attribute is used to uniquely identify an element in an HTML document, making it easy to style or manipulate with JavaScript."
+      },
+      {
+        "question": "What is the difference between the `class` and `id` attributes?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `class` attribute is used to group multiple elements that share the same style, while the `id` attribute is for uniquely identifying a single element on a page."
+      },
+      {
+        "question": "How can you embed a video in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You can embed a video in HTML using the `<video>` tag, with the `src` attribute pointing to the video file and optional controls like `controls` to enable playback features."
+      },
+      {
+        "question": "What is the purpose of the `action` attribute in a form?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `action` attribute in a form specifies the URL where the form data should be sent for processing once the form is submitted."
+      },
+      {
+        "question": "What does the `<link>` tag do in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<link>` tag is used to link external resources like stylesheets to an HTML document. It is most commonly used to include a CSS file."
+      },
+      {
+        "question": "How do you include comments in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You can include comments in HTML by wrapping your comment text within `<!--` and `-->`. Comments are not displayed on the page but are useful for developers."
+      },
+      {
+        "question": "What is the purpose of the `<iframe>` tag?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<iframe>` tag is used to embed another HTML document or media from a different source, such as a video or another webpage, within your current page."
+      },
+      {
+        "question": "How do you create a radio button in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You create a radio button in HTML using the `<input>` tag with the `type='radio'` attribute. Group them by giving them the same `name` attribute to ensure only one option can be selected."
+      },
+      {
+        "question": "What does the `<strong>` tag do?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<strong>` tag is used to give text strong emphasis, typically rendering the text in bold. It also indicates to screen readers that the content is important."
+      },
+      {
+        "question": "What is the purpose of the `<br>` tag in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `<br>` tag inserts a line break, causing the text following it to appear on the next line. It is an empty tag, meaning it doesn't have a closing counterpart."
+      },
+      {
+        "question": "How do you create a dropdown list in HTML?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You create a dropdown list using the `<select>` tag, with each option defined by the `<option>` tag. The `value` attribute of each `<option>` specifies the value that will be sent when the form is submitted."
+      },
+      {
+        "question": "What is the difference between the `<input>` types 'text' and 'password'?",
+        "topic": "Interviewer",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The 'text' input type allows users to enter plain text, while the 'password' input type hides the text entered, making it suitable for sensitive information like passwords."
+      }, 
+      {
+        "question": "What is the difference between `class` and `id` selectors in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `class` selector can be applied to multiple elements on a page, whereas the `id` selector is unique to a single element. This makes `id` more specific and generally used for targeting one element, while `class` is used for styling groups of elements."
+      },
+      {
+        "question": "What does the `box-sizing` property do in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `box-sizing` property defines how the width and height of an element are calculated, including padding and borders. The default value `content-box` excludes padding and borders, while `border-box` includes them, making it easier to manage layout dimensions."
+      },
+      {
+        "question": "How do you center an element horizontally in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "To center an element horizontally in CSS, you can set its left and right margins to `auto` and ensure the element has a defined width. Alternatively, for flexbox layouts, setting `display: flex` on the parent and `justify-content: center` will center the child element."
+      },
+      {
+        "question": "What is the purpose of the `z-index` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `z-index` property controls the stacking order of elements on a web page. Elements with a higher `z-index` value will appear in front of elements with a lower value. It only works on elements that have a `position` value other than `static`."
+      },
+      {
+        "question": "How do you create a responsive layout using CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "A responsive layout is typically created using media queries. These queries allow you to apply different styles depending on the screen size or device type. Using `flexbox` or `grid` for layout management also helps ensure responsiveness."
+      },
+      {
+        "question": "What is the difference between `display: none` and `visibility: hidden`?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`display: none` removes the element from the layout entirely, so it doesn't take up any space. `visibility: hidden`, on the other hand, hides the element but still preserves its space in the layout, allowing other elements to be positioned around it."
+      },
+      {
+        "question": "What are pseudo-classes in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "Pseudo-classes are keywords in CSS that select elements based on their state or position. Examples include `:hover` for when an element is hovered over, `:nth-child()` for selecting elements based on their position, and `:focus` for selecting an element when it has focus."
+      },
+      {
+        "question": "What is the purpose of the `flex` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `flex` property is a shorthand for defining how flex items will grow, shrink, and distribute space within a flex container. It combines `flex-grow`, `flex-shrink`, and `flex-basis` into one value to control the sizing and layout behavior of flex items."
+      },
+      {
+        "question": "What are media queries in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "Media queries are used in CSS to apply styles based on the characteristics of the device, such as screen width, height, and resolution. They enable the creation of responsive designs that adjust to different devices and screen sizes."
+      },
+      {
+        "question": "What is the difference between `padding` and `margin` in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`Padding` is the space between the content of an element and its border, while `margin` is the space outside the border, separating the element from others. Padding affects the element's background, while margin does not."
+      },
+      {
+        "question": "How can you make a webpage mobile-friendly with CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "To make a webpage mobile-friendly, you can use media queries to adjust layout and font sizes based on the screen size. You can also use relative units like percentages and `em` for sizing, and avoid fixed-width elements that could break on smaller screens."
+      },
+      {
+        "question": "What is the purpose of the `overflow` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `overflow` property controls what happens when content overflows an element’s box. It can be set to `visible`, `hidden`, `scroll`, or `auto`, determining whether the content is clipped, displayed, or scrollable."
+      },
+      {
+        "question": "What is the `position` property in CSS used for?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `position` property defines how an element is positioned on the page. It can take values like `static` (default), `relative` (positioned relative to its normal position), `absolute` (positioned relative to its nearest positioned ancestor), and `fixed` (positioned relative to the viewport)."
+      },
+      {
+        "question": "What is the purpose of `@import` in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`@import` allows you to include external CSS files within your stylesheet. It helps to modularize and organize your stylesheets, though it can be slower than using `<link>` to include stylesheets because it forces additional HTTP requests."
+      },
+      {
+        "question": "What is the `float` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `float` property allows an element to be positioned to the left or right of its containing element, allowing text or other inline elements to wrap around it. It was traditionally used for layout, though modern CSS layout techniques like flexbox and grid have replaced it in most cases."
+      },
+      {
+        "question": "What is the difference between `inline`, `block`, and `inline-block` elements in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`inline` elements take up only as much width as necessary and do not force a line break. `block` elements take up the full width of their container and cause a line break before and after. `inline-block` combines both behaviors, allowing elements to sit inline while still respecting width and height properties."
+      },
+      {
+        "question": "How do you apply a CSS style to a specific child element?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "You can use the child combinator (`>`) to apply styles to direct child elements. For example, `parent > child` will style only the immediate child elements of the parent, excluding nested children."
+      },
+      {
+        "question": "What is the `transition` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `transition` property allows you to change property values smoothly (over a specified duration) from one state to another. This can be used for hover effects or animations that make changes in state appear more fluid and visually engaging."
+      },
+      {
+        "question": "What is the purpose of `rem` and `em` units in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`rem` and `em` are relative units of measurement. `rem` (root em) is relative to the root element's font size, while `em` is relative to the font size of the element itself. These units are often used for creating scalable, responsive designs."
+      },
+      {
+        "question": "What does the `@media` rule do in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`@media` is used for applying different styles based on media features like screen width, resolution, and device type. It is essential for responsive web design, ensuring the layout adapts to various devices such as phones, tablets, and desktops."
+      },
+      {
+        "question": "What is a CSS `grid` layout?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "CSS Grid is a layout system that allows you to create complex, two-dimensional layouts with ease. It defines rows and columns, and you can place items into the grid cells with precise control over their size and position. It's powerful for building responsive and flexible layouts."
+      },
+      {
+        "question": "What is the `box-shadow` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`box-shadow` allows you to add shadow effects around elements, creating depth. You can control the horizontal and vertical offsets, blur radius, spread radius, and color of the shadow, making it a versatile property for improving visual design."
+      },
+      {
+        "question": "How do you make a fixed header that stays at the top when scrolling?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "To create a fixed header, you can use `position: fixed` and set the `top` property to `0`. This makes the header stay at the top of the viewport while the rest of the page content scrolls underneath it."
+      },
+      {
+        "question": "What is the `opacity` property in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "The `opacity` property controls the transparency of an element. It accepts a value between `0` (completely transparent) and `1` (completely opaque). It is commonly used for creating hover effects or for overlaying content without completely hiding the background."
+      },
+      {
+        "question": "What is the `:nth-child()` pseudo-class in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`:nth-child()` is a pseudo-class used to select elements based on their position within a parent element. You can use formulas or keywords (like `odd` or `even`) to target specific children, making it useful for styling lists, tables, or other repeating elements."
+      },
+      {
+        "question": "What is a CSS `variable`?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "CSS variables, or custom properties, allow you to store values like colors, fonts, or any other CSS value. They can be reused throughout your stylesheet, making it easier to maintain consistent styles and allowing for dynamic updates to values."
+      },
+      {
+        "question": "How do you use `position: absolute` in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`position: absolute` positions an element relative to its nearest positioned ancestor, which must have a `position` value other than `static`. If no positioned ancestor exists, it will position relative to the document body."
+      },
+      {
+        "question": "What is the difference between `vw` and `vh` in CSS?",
+        "topic": "Candidate",
+        "edition": false,
+        "explanation": "n/a",
+        "answer": "`vw` (viewport width) and `vh` (viewport height) are relative units that are based on the size of the viewport. `1vw` is equal to 1% of the viewport's width, and `1vh` is equal to 1% of the viewport's height. They are useful for responsive design."
+      }
+    ]
+  }
+  
