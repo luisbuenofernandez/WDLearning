@@ -476,6 +476,7 @@ input[type="checkbox"]#edit:checked+label {
     border-radius: 8px;
     display: inline-block;
     font-weight: bold;
+    font-size: 8px;
     /* Default text weight */
     transition: border-color 0.3s, color 0.3s;
     /* Smooth transition */
